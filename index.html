@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -12,27 +13,36 @@
 
 
     <body>
-<header class="hmenu">
-  <a class="logo" href="./index.html"><span class="logoblue">Web</span>Studio</a>
-  <nav>
-  
-    <ul>
-  <li><a class="agencja" href="./index.html">Agencja</a></li>
-  <li><a class="portfolio" href="./portfolio.html">Portfolio</a></li>
-  <li><a class="kontakt" href="/Kontakt">Kontakt</a></li>
-  </ul>
-  </nav>
-  <ul>
-  <li><a class="mailtel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-  <li><a class="mailtel" href="tel:+48111111111">+48 111 111 111</a></li></ul>
-</header>
+      <header class="hmenu">
+        <div class="container container-header">
+        
+        
+        <nav class="hero">
+          <a class="logo" href="./index.html"><span class="logoblue">Web</span>Studio</a>
+
+          <ul class="container-nav">
+        <li class="navi"><a class="agencja" href="./index.html">Agencja</a></li>
+        <li class="navi"><a class="portfolio" href="./portfolio.html">Portfolio</a></li>
+        <li class="navi"><a class="kontakt" href="/Kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      
+        <ul class="container-contact">
+      
+        <li class="tool1"><a class="mailtel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="tool2"><a class="mailtel" href="tel:+48111111111">+48 111 111 111</a></li></ul>
+        </div>
+      </header>
+      
 
 <main>
-  <section class="money">
+  <section class="money section">
+    <div class="container">
 <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-<button class="mainbutton" type="button">Zamów usługe</button></section>
+<button class="mainbutton" type="button">Zamów usługe</button></div></section>
 
-<section class="lorus"><h2 class="hiddentitle">magia</h2>
+<section class="lorus section"><h2 class="hiddentitle">magia</h2>
+  <div class="container">
   <ul class="loremlist">
     <li><h3 class="stitle">LOREM IPSUM</h3>
     <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
@@ -42,42 +52,46 @@
     <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
     <li><h3 class="stitle">LOREM IPSUM</h3>
     <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
-  </ul></section>
+  </ul></div></section>
 
-<section class="pics"><h2 class="about">Czym się zajmujemy</h2></li>
+<section class="pics section"><h2 class="about">Czym się zajmujemy</h2></li>
+  <div class="container">
 <ul class="tasks"><li><img src="./images/coding.jpg" alt="Kodowanie i debugowanie na laptopie i tablecie" width="370" height="294"/></li>
 <li><img src="./images/smartphone-laptop.jpg" alt="Tworzenie aplikacji mobilnych przy pomocy nowoczesnych urządzeń" width="370" height="294"/></li>
 <li><img src="./images/tablet.jpg" alt="Graficzne projektowanie przy pomocy nowoczesnych urządzeń" width="370" height="294"/></li>
-</ul></section>
+</ul></div></section>
 
-<section class="staff"><h2 class="team">Nasz zespół</h2></li>
-<ul><li>
+<section class="staff section ">
+  <div class="container">
+  <h2 class="team">Nasz zespół</h2></li>
+<ul class="people"><li class="all">
    <img src="./images/john-doe.jpg" alt="John Doe" width="270" height="260">
    <h3 class="person">John Doe</h3><p class="prof">Product Designer</p>
 </li>
-<li>
+<li class="all">
    <img src="./images/john-doe2.jpg" alt="John Doe" width="270" height="260">
   <h3 class="person">John Doe</h3><p class="prof">Frontend Developer</p>
 </li>
-<li>
-  <span> <img src="./images/john-doe3.jpg" alt="John Doe" width="270" height="260">
+<li class="all">
+  <img src="./images/john-doe3.jpg" alt="John Doe" width="270" height="260">
   <h3 class="person">John Doe</h3><p class="prof">Marketing</p>
 </li>
-<li>
-  <span><img src="./images/john-doe4.jpg" alt="John Doe" width="270" height="260">
+<li class="all">
+  <img src="./images/john-doe4.jpg" alt="John Doe" width="270" height="260">
   <h3 class="person">John Doe</h3><p class="prof">UI Designer</p>
-</li></ul></section>
+</li></ul></div></section>
 </main>
 
 
 <footer class="fmenu">
+  <div class="container">
   <a class="logo" href="./index.html"><span class="logoblue">Web</span><span class="logowhite">Studio</span></a>
   <address class="place">
     
 m. Warszawa, Aleje Jerozolimskie 21
-  <ul><li><a class="mailtel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-  <li><a class="mailtel" href="tel:+48111111111">+48 111 111 111</a></li></ul>
+  <ul><li class="footmail"><a class="mailtel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+  <li class="foottel"><a class="mailtel" href="tel:+48111111111">+48 111 111 111</a></li></ul>
 </address>
-
+</div>
   </footer>
     </body></html>
